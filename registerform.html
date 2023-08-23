@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="registerform.css">
+</head>
+<body>
+    <div class="cont2">
+
+        
+        <form action="/register"  id="registration-form" method="POST" class="form1">
+    
+                <h1>Register</h1>
+
+                <div class="text-area">
+                    <label for="firstname">Username</label><br>
+                    <input type="text" class="inputbox"  name="firstname" required>
+                </div>
+    
+                <div class="text-area">
+                    <label for="email">Email</label><br>
+                    <input type="email" class="inputbox"  name="email" required>
+                </div>
+    
+                <div class="text-area">
+                    <label for="password">Password</label><br>
+                    <input type="password" class="inputbox"  name="password" required>
+                </div>
+    
+                <div class="text-area">
+                    <label for="confirmpassword">Confirm Password</label><br>
+                    <input type="password" class="inputbox"  name="confirmpassword" required>
+                </div>
+    
+                <div class="text-area">
+                    <label for="phno">Phone Number</label><br>
+                    <input type="number" class="inputbox"  name="phone">
+                </div>
+    
+                <div class="text-area">
+                    <label>Gender</label>
+                        <input type="radio" id="m" name="gender" value="m">
+                        <label for="male">Male</label>
+                        <input type="radio" id="f" name="gender" value="f">
+                        <label for="female">Female</label>
+                </div>
+    
+                <div>
+                    <button type="submit" value="submit" class="reg-btn">Login</button>
+                </div>
+    
+        </form> 
+
+        <div class="side">
+            <img src="friend-student-graduate-young.jpg" alt="">
+        </div>
+</div>
+</body>
+</html>
