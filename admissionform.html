@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="img.css">
+</head>
+<body>
+    {{>header}}
+
+    <div class="cont4">
+        <div class="form-container">
+        <h1>Admission Form</h1>
+        <form>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" >
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" >
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="college">Name of College:</label>
+            <input type="text" id="college" name="college" >
+
+            <label>Category:</label>
+            <select id="category" name="category" >
+                <option value="obc">OBC</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+            </select>
+
+            <label>Course Name:</label>
+            <select id="course" name="course" >
+                <option value="bca">BCA</option>
+                <option value="bba">BBA</option>
+                <option value="bcom">BCom</option>
+                <option value="ba">BA</option>
+            </select>
+
+            <label for="fees">Fees:</label>
+            <input type="text" id="fees" name="fees" >
+
+            <label for="percentage10">10th Percentage:</label>
+            <input type="text" id="percentage10" name="percentage10" >
+
+            <label for="percentage12">12th Percentage:</label>
+            <input type="text" id="percentage12" name="percentage12" >
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
