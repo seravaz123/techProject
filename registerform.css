@@ -55,14 +55,14 @@ body{
     }
 
 /* Right side img */
-.side{
+.side1{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
-.side img{
+.side1 img{
     width: 395px;
     height: 549px;
 
